@@ -2,8 +2,7 @@ name: Check Package
 
 on: 
   schedule:
-    #- cron: '0 8 * * 5' # every friday AM 8:00
-    - cron: '16 * * * *'
+    - cron: '0 8 * * 5' # every friday AM 8:00
 jobs:
   carthage:
     runs-on: macOS-latest
